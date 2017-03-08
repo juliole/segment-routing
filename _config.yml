@@ -38,8 +38,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Segment Routing Team"
-  bio              : "Segment Routing, Cisco"
+  name             : "tricorder Team"
+  bio              : "tricorder, Cisco"
   email            : "ask-segment-routing@cisco.com"
   twitter          : "segmentrouting"
   linkedin-group   : "8266623"
@@ -257,7 +257,7 @@ prose:
         field:
             element: "text"
             label: "Author"
-            value: "Segment Routing Team"
+            value: "tricorder Team"
       - name: "excerpt"
         field:
             element: "text"
@@ -293,7 +293,7 @@ prose:
         field:
             element: "text"
             label: "Author"
-            value: "Segment Routing Team"
+            value: "tricorder Team"
       - name: "excerpt"
         field:
             element: "text"
@@ -330,7 +330,7 @@ prose:
         field:
             element: "text"
             label: "Author"
-            value: "Segment Routing Team"
+            value: "tricorder Team"
       - name: "excerpt"
         field:
             element: "text"
@@ -356,7 +356,7 @@ prose:
         field:
             element: "text"
             label: "Author"
-            value: "Segment Routing Team"
+            value: "tricorder Team"
       - name: "excerpt"
         field:
             element: "text"

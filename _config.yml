@@ -15,7 +15,7 @@ url                      : "https://juliole.github.io" # the base hostname & pro
 baseurl                  : "/tricorder"
 gh_repo                  : "https://github.com/juliole/tricorder"
 teaser                   : "/images/sr-teaser-icon.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-logo                     : "/images/sr-logo-blue.png"
+logo                     : "/images/tricorder.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 
@@ -28,7 +28,7 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : &twitter "segmentrouting"
-og_image                 : "sr-logo-blue.png" # Open Graph/Twitter default site image
+og_image                 : "tricorder.png" # Open Graph/Twitter default site image
 
 # Analytics
 analytics:
@@ -123,36 +123,36 @@ defaults:
       type: pages
     values:
       layout: single-full
-# _tutorials
+# _devops
   - scope:
       path: ""
-      type: tutorials
+      type: devops
     values:
       layout: single-full
       read_time: false
       related: true
       position: "top"
-# _conferences
+# _baseclass
   - scope:
       path: ""
-      type: conferences
+      type: baseclass
     values:
       layout: single-full
       read_time: false
       related: true
       position: "top"
-# _open-software
+# _networking
   - scope:
       path: ""
-      type: open-software
+      type: networking
     values:
       layout: single-full
       related: true
       position: "top"
-# _scientific-papers
+# _UI
   - scope:
       path: ""
-      type: scientific-papers
+      type: UI
     values:
       layout: single-full
       related: true
@@ -247,7 +247,7 @@ prose:
     - feed.xml
     - search.html
   metadata:
-    _tutorials:
+    _devops:
       - name: "title"
         field:
             element: "text"
@@ -283,7 +283,7 @@ prose:
             element: "number"
             label: "order"
             value: "99"
-    _conferences:
+    _baseclass:
       - name: "title"
         field:
             element: "text"
@@ -320,7 +320,7 @@ prose:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
-    _open-software:
+    _networking:
       - name: "title"
         field:
             element: "text"
@@ -346,7 +346,7 @@ prose:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
-    _scientific-papers:
+    _UI:
       - name: "title"
         field:
             element: "text"

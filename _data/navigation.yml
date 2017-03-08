@@ -1,18 +1,18 @@
 # main links links
 main:
-  - title: "Tutorials"
+  - title: "DevOps"
     url: "/tutorials/"
 
-  - title: "Conferences"
+  - title: "Base Class & Samples"
     url: "/conferences/" 
 
-  - title: "IETF"
+  - title: "Spinnaker"
     url: "/ietf/"
 
-  - title: "Open Software"
+  - title: "Container Networking"
     url: "/open-software/"
 
-  - title: "Scientific Papers"
+  - title: "User Interface"
     url: "/scientific-papers/"
 
 #  - title: "Search"
